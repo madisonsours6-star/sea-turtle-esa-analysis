@@ -42,7 +42,7 @@ if show_all:
     ax.plot(df["Year"], df["Leatherback Turtle"], marker='o', label="Leatherback")
     ax.legend()
 else:
-ax.plot(df["Year"], df[species], marker='o')
+    ax.plot(df["Year"], df[species], marker='o')
 
 # ESA marker
 ax.axvline(x=1973)
