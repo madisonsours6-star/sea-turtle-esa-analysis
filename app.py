@@ -37,10 +37,10 @@ st.markdown("## 📊 Population Trends")
 fig, ax = plt.subplots()
 
 if show_all:
-ax.plot(df["Year"], df["Green Turtle"], marker='o', label="Green")
-ax.plot(df["Year"], df["Loggerhead Turtle"], marker='o', label="Loggerhead")
-ax.plot(df["Year"], df["Leatherback Turtle"], marker='o', label="Leatherback")
-ax.legend()
+    ax.plot(df["Year"], df["Green Turtle"], marker='o', label="Green")
+    ax.plot(df["Year"], df["Loggerhead Turtle"], marker='o', label="Loggerhead")
+    ax.plot(df["Year"], df["Leatherback Turtle"], marker='o', label="Leatherback")
+    ax.legend()
 else:
 ax.plot(df["Year"], df[species], marker='o')
 
