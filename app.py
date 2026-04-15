@@ -74,11 +74,11 @@ st.markdown("---")
 st.markdown("## 🧠 What does this mean?")
 
 if species == "Green Turtle":
-st.success("💚 Strong recovery! Conservation efforts have been highly effective.")
+    st.success("💚 Strong recovery! Conservation efforts have been highly effective.")
 elif species == "Loggerhead Turtle":
-st.warning("🧡 Moderate growth. Recovery is slower and may need more support.")
+    st.warning("🧡 Moderate growth. Recovery is slower and may need more support.")
 else:
-st.error("❤️ Decline detected. Protection alone may not be enough for this species.")
+    st.error("❤️ Decline detected. Protection alone may not be enough for this species.")
 
 st.markdown("---")
 
